@@ -97,6 +97,24 @@ nav i {
 }
 
 
+/* section testimonials */
+
+#testimonials {
+    padding-bottom: 5rem;
+}
+
+#testimonials .box-text {
+    height: 455px;
+    border: 1px dashed black;
+}
+
+.box-testimonial {
+    height: 500px;
+    background-color: #9792e4;
+    border-radius: 50px;
+    margin-bottom: 2rem;
+}
+
 
 
 
