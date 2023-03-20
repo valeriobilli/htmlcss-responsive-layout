@@ -115,7 +115,48 @@ nav i {
     margin-bottom: 2rem;
 }
 
+/* section benefits */
 
+#benefits {
+    background-color: #9792e4;
+    padding-bottom: 2rem;
+}
+
+#benefits .title {
+    height: 222px;
+}
+
+.box-benefit {
+    height: 399px;
+    margin-bottom: 2rem;
+    border-radius: 20px;
+    background-color: white;
+}
+
+/* about us section */
+ 
+.box-lungo {
+    height: 1597px;
+}
+
+/* section get started */
+#get-started {
+    background-color: #9792e4;
+}
+
+.card {
+    height: 616px;
+}
+
+/* footer */
+
+footer {
+    background-color: #333333;
+}
+
+.box-footer {
+    height: 235px;
+}
 
 
 
