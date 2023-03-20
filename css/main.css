@@ -50,27 +50,51 @@ nav i {
 
 /* prima section */
 
+.container {
+    margin: 0 2rem ;
+}
+
 .big-box {
     height: 608px;
-    margin: 3rem 2rem 1.5rem;
+    margin-top: 3rem;
+    margin-bottom: 1.5rem;
     background-color: #b5ddff;
     border-radius: 20px;
 }
 
 .small-box {
     height: 362px;
-    margin: 0 2rem 1.5rem;
+    margin-bottom: 1.5rem;
     background-color: #b5ddff;
     border-radius: 20px;
 }
 
-.first-section:last-child {
-    margin-bottom: 5rem;
+#first-section {
+    padding-bottom: 3.5rem;
 }
 
 /* section strategic plan */
 
+#strategic-plan {
+    background-color: #9792e4;
+    padding-bottom: 4rem;
+}
 
+#strategic-plan .box-img {
+    height: 442px;
+    border: 1px dashed black;
+}
+
+#strategic-plan .box-text {
+    height: 255px;
+    border: 1px dashed black;
+}
+
+#strategic-plan .box-white {
+    height: 615px;
+    border-radius: 50px;
+    background-color: white;
+}
 
 
 
