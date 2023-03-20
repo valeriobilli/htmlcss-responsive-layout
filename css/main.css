@@ -37,14 +37,38 @@ nav {
 }
 
 #logo {
-    margin: 1rem 4rem;
+    margin: 1rem 2rem;
 }
 
 nav i {
     color: white;
     font-size: 2rem;
-    margin: 1rem 4rem;
+    margin: 1rem 2rem;
 }
+
+/* MAIN */
+
+/* prima section */
+
+.big-box {
+    height: 608px;
+    margin: 3rem 2rem 1.5rem;
+    background-color: #b5ddff;
+    border-radius: 20px;
+}
+
+.small-box {
+    height: 362px;
+    margin: 0 2rem 1.5rem;
+    background-color: #b5ddff;
+    border-radius: 20px;
+}
+
+.first-section:last-child {
+    margin-bottom: 5rem;
+}
+
+/* section strategic plan */
 
 
 
