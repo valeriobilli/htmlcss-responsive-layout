@@ -8,6 +8,10 @@
 
 /* HELPERS */
 
+body {font-family: 'Open Sans', sans-serif;} 
+
+.font20 { font-size: 20px;}
+
 /* flex */
 
 .flex {
@@ -19,21 +23,13 @@
 }
 
 
-
-
-
-
-
-
-
-
-
 /* ELEMENTI PAGINA */
 
 /* HEADER */
 
 nav {
    background-color: #0084fd; 
+   margin-bottom: 3rem;
 }
 
 #logo {
@@ -51,23 +47,51 @@ nav i {
 /* prima section */
 
 .container {
-    margin: 0 2rem ;
+    margin: 0 1.25rem ;
 }
 
 .big-box {
-    height: 608px;
-    margin-top: 3rem;
-    margin-bottom: 1.5rem;
-    background-color: #b5ddff;
-    border-radius: 20px;
+    margin-bottom: 1.5rem; 
+    padding: 0.75rem;
 }
 
 .small-box {
-    height: 362px;
-    margin-bottom: 1.5rem;
+    height: 608px;
+    margin-bottom: 1.5rem; 
+    padding: 0.75rem;
+}
+
+.card-intro {
     background-color: #b5ddff;
     border-radius: 20px;
+    width: 100%;
+    padding: 2rem;
 }
+
+.card-intro > h2 { 
+    color: #0084fd;
+    margin-bottom: 2.5rem;
+}
+
+.card-intro > p {
+    margin-bottom: 2.5rem;
+}
+
+#app-store {
+    color: white;
+    background-color: #0084fd;
+    padding: 0.75rem 3rem;
+    border-radius: 100px;
+    border: none;
+    margin-bottom: 2.5rem;
+}
+
+#phone {
+    width: 100%;
+    display: block;
+}
+
+#first-card { padding-bottom: 0;}
 
 #first-section {
     padding-bottom: 3.5rem;
@@ -163,3 +187,12 @@ footer {
 
 
 /* MEDIA QUERY */
+
+@media screen and (min-width: 768px) {
+    #first-section > .container { 
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .big-box { width: calc(100% / 3 * 2);}
+    .small-box { width: calc(100% / 3);}
+}
