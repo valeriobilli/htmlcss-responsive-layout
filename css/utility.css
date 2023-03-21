@@ -1,0 +1,44 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* FLEX */
+
+.flex { 
+    display: flex;
+}
+.space-between {
+    justify-content: space-between;
+}
+.align-center {
+    align-items: center;
+}
+
+
+
+/* FONT SIZE */
+
+.font-1_5 {
+    font-size: 1.5rem;
+}
+
+
+/* PADDING */
+
+.pa-y-1 {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.pa-y-2 {
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+/* MARGIN */
+
+.ma-rgt-2 { margin-right: 2rem;}
+

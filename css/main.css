@@ -1,5 +1,68 @@
+/* FONT */
+body {font-family: 'Open Sans', sans-serif;} 
+
+/* COLORI (visto a lezione) */
+:root {
+    --primary-col: #0084fd;
+    --primary-col-light: #b5ddff;
+    --secondary-col: #9792e4;
+}
+
+.bg-white            { background-color: white; }
+.fg-white            { color: white; }
+.bg-black            { background-color: black; }
+.fg-black            { color: black; }
+.bg-primary          { background-color: var(--primary-col); }
+.fg-primary          { color: var(--primary-col);}
+.bg-primary-light    { background-color: var(--primary-col-light); }
+.fg-primary-light    { color: var(--primary-col-light); }
+.bg-secondary        { background-color: var(--secondary-col); }
+.fg-secondary        { color: var(--secondary-col); }
+
+
+
+/* HEADER */
+
+/* Nav */
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+nav button {
+    padding: 0.75rem 1rem;
+    border-radius: 20px;
+    border: none;
+}
+
+#long-menu {
+    display: none;
+}
 
 
 
 
 
+
+
+
+
+
+
+
+
+
+
+/* MEDIA QUERY */
+
+@media screen and (min-width: 993px) {
+    nav {
+        width: 70%;
+        margin: auto;
+    }
+
+    #hamburger-menu { display: none;}
+    #long-menu { display: block;}
+    
+}
