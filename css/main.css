@@ -180,20 +180,40 @@ nav i {
 
 .box-testimonial {
     background-color: #9792e4;
+    color: white;
     border-radius: 50px;
     margin-bottom: 2rem;
+    padding: 2rem 1rem;
 }
 
-/* #testimonials .box-img {
-    width: 13rem;
-    height: 13rem;
-    margin: auto;
+#testimonials .box-img {
     border-radius: 50%;
-} */
+    width: 212px;
+    height: 212px;
+    background-size: cover;
+    background-position: center;
+    margin: 0 auto 2rem;  
+}
+
+#nat {
+    background-image: url(../img/testimonial1.jpg);
+}
+
+#celia {
+    background-image: url(../img/testimonial2.jpg);
+}
+
+#bob {
+    background-image: url(../img/testimonial3.jpg);
+}
 
 #testimonials img {
     width: 100%;
     border-radius: 50%
+}
+
+.box-testimonial p {
+    margin-bottom: 2rem;
 }
 
 /* section benefits */
