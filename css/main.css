@@ -12,11 +12,17 @@ body {font-family: 'Open Sans', sans-serif;}
 
 .font20 { font-size: 20px;}
 
+.text-center {
+    text-align: center;
+}
+
 /* flex */
 
 .flex {
     display: flex;
 }
+
+.dir-column {flex-direction: column;}
 
 .justify-between {
     justify-content: space-between;
@@ -50,14 +56,11 @@ nav i {
     margin: 0 1.25rem ;
 }
 
-.big-box {
-    margin-bottom: 1.5rem; 
+.big-box { 
     padding: 0.75rem;
 }
 
 .small-box {
-    height: 608px;
-    margin-bottom: 1.5rem; 
     padding: 0.75rem;
 }
 
@@ -73,7 +76,13 @@ nav i {
     margin-bottom: 2.5rem;
 }
 
-.card-intro > p {
+.card-intro > i {
+    font-size: 5rem;
+    margin-bottom: 2rem;
+    color: #0084fd;
+}
+
+#first-card > p {
     margin-bottom: 2.5rem;
 }
 
@@ -105,19 +114,49 @@ nav i {
 }
 
 #strategic-plan .box-img {
-    height: 442px;
-    border: 1px dashed black;
+    padding-top: 4rem;
 }
 
 #strategic-plan .box-text {
-    height: 255px;
-    border: 1px dashed black;
+    color: white;
+    margin-bottom: 2.5rem;
 }
 
 #strategic-plan .box-white {
-    height: 615px;
     border-radius: 50px;
     background-color: white;
+    color: black;
+    padding: 2rem;
+}
+
+.box {padding: 0.75rem;}
+
+#strategic-plan img {
+    width: 100%;
+}
+
+#strategic-plan h2 {
+    font-size: 2rem;
+    margin-bottom: 3.5rem;
+    margin-top: 5rem;
+}
+
+#strategic-plan h3 {
+    font-size: 1.5rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.box-white > p {
+    margin-bottom: 2rem;
+}
+
+.box-white > button {
+    background-color: #9792e4;
+    padding: 1rem 1.25rem;
+    font-size: 1.25rem;
+    border-radius: 50%;
+    border: none;
 }
 
 
@@ -128,15 +167,33 @@ nav i {
 }
 
 #testimonials .box-text {
-    height: 455px;
-    border: 1px dashed black;
+    padding: 0.75rem;
+    margin-top: 3rem; 
+    margin-bottom: 3rem; 
+}
+
+#testimonials h2 {
+    margin: 2.5rem 0;
+    color: #9792e4;
+    font-size: 2rem;
 }
 
 .box-testimonial {
-    height: 500px;
     background-color: #9792e4;
     border-radius: 50px;
     margin-bottom: 2rem;
+}
+
+/* #testimonials .box-img {
+    width: 13rem;
+    height: 13rem;
+    margin: auto;
+    border-radius: 50%;
+} */
+
+#testimonials img {
+    width: 100%;
+    border-radius: 50%
 }
 
 /* section benefits */
@@ -168,10 +225,6 @@ nav i {
     background-color: #9792e4;
 }
 
-.card {
-    height: 616px;
-}
-
 /* footer */
 
 footer {
@@ -188,11 +241,12 @@ footer {
 
 /* MEDIA QUERY */
 
-@media screen and (min-width: 768px) {
+/* @media screen and (min-width: 768px) {
     #first-section > .container { 
         display: flex;
+        flex-direction: row;
         flex-wrap: wrap;
     }
     .big-box { width: calc(100% / 3 * 2);}
     .small-box { width: calc(100% / 3);}
-}
+} */
