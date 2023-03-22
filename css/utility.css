@@ -18,11 +18,22 @@
 }
 
 
+/* text align center */
+
+.text-center {
+    text-align: center;
+}
+
+
 
 /* FONT SIZE */
 
 .font-1_5 {
     font-size: 1.5rem;
+}
+
+.font-5 {
+    font-size: 5rem;
 }
 
 
@@ -40,5 +51,20 @@
 
 /* MARGIN */
 
-.ma-rgt-2 { margin-right: 2rem;}
+/* margin right */
+
+.ma-rgt-2 { margin-right: 2rem; }
+
+/* margin top */
+
+.ma-top-3 { margin-top: 3rem; }
+
+
+/* margin bottom */
+
+.ma-btm-2 { margin-bottom: 2rem;}
+
+.ma-btm-2_5 { margin-bottom: 2.5rem; }
+
+.ma-btm-5 { margin-bottom: 5rem; }
 
